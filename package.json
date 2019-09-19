@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rrsilaya/portfolio-site.git",
+  "author": "Ralph Lawrence Silaya <rrsilaya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.15.18",
+    "gatsby-plugin-react-helmet": "^3.1.7",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-source-filesystem": "^2.1.24",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  }
+}
