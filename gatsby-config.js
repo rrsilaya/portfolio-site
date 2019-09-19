@@ -5,6 +5,7 @@ const plugins = [
         resolve: 'gatsby-plugin-root-import',
         options: {
             '@common': path.join(__dirname, 'src/@common'),
+            'styles': path.join(__dirname, 'src/styles'),
         },
     },
     'gatsby-plugin-react-helmet',
