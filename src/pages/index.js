@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import LineArt from '../assets/components/line-art';
+import { colors } from 'styles/constants';
 
 const Site = () => (
-    <h1>Hello</h1>
+    <Fragment>
+       <LineArt color={colors.black} />
+    </Fragment>
 );
 
 export default Site;
