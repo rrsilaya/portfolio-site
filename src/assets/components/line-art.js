@@ -1,7 +1,12 @@
 import React from 'react';
 
-const LineArt = ({ color = '#fff' }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 517.59 669.28">
+const LineArt = ({ color = '#fff', width = 517, height = 669 }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={width}
+        height={height}
+        viewBox={`0 0 ${width} ${height}`}
+    >
         <g id="Layer_2" data-name="Layer 2">
             <g id="Layer_1-2" data-name="Layer 1">
                 <path fill={color} d="M332.48 161.28c4 7 2 33 2 33l8 27 25-60 11-12c23-26 17-54 17-54 6 0 3 27 3 27 9-14-1-40-1-40 2-4-1-15-1-15 6 5 6 29 6 29 2-4 1-19 1-19-8-50-44-38-44-38-4-20-9-10-9-10-12-18-13-3-13-3-4-3-9 6-9 6 0-9-10-9-10-9-10-16-35-22-35-22-28-6-29 11-29 11-8-4-11 1-11 1-2-4-12-3-12-3-31 4-29 24-29 24-9 5-17 15-17 15-21 28 3 32 3 32s2 3 11-8c0 0 14-12 32-12 0 0 22 0 32-7 0 0-32 25-9 42 0 0 14 11 21 18 0 0 12 18 7 48 0 0 11-34 32-31l13 2 6.16 8 1.67 8-.67 6.84z"/>

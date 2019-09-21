@@ -4,6 +4,7 @@ import { breakpoints } from 'styles/constants';
 const Container = styled.div`
     width: 90%;
     max-width: ${breakpoints.desktopLg}px;
+    margin: auto;
 `;
 
 export default Container;
